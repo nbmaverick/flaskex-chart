@@ -36,3 +36,6 @@ jobs:
           echo test, and deploy your project.
       - name: Test Helm
         run: helm version
+        
+      - name: test kubectl 
+        run: kubectl version
