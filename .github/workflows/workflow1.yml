@@ -19,7 +19,8 @@ jobs:
     
     steps:                   # These are the Steps what we are going to run and execute
       
-      - uses: actions/checkout@v3         #  fisrt I am going to check out the repo, it will clone the repo
+      - name: Checkout repo
+        uses: actions/checkout@v3         #  fisrt I am going to check out the repo, it will clone the repo
                                           # it is mandatory 
 
       
